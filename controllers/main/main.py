@@ -222,7 +222,7 @@ if __name__ == '__main__':
         control_commands = my_controller.step_control(sensor_data)
         # control_commands = example.obstacle_avoidance(sensor_data)
         # control_commands = example.path_planning(sensor_data)
-        # map = example.occupancy_map(sensor_data)
+        map = example.occupancy_map(sensor_data)   
         # ---- end --- #
 
         # print(sensor_data['range_down'])
